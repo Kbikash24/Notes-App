@@ -1,0 +1,61 @@
+.note-box{
+     
+     width: 270px;
+     margin: 10px;
+    padding: 20px;
+     cursor: pointer;
+     border-radius: 10px;
+     background: rgba(234, 255, 0, 0.274);
+     transition-duration: 1s;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.2);
+    max-height: 200px;
+    
+     }
+
+     .note-box:hover{
+         transform: translateY(10px);
+     }
+
+
+.bottom-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    cursor: pointer;
+}
+.bottom-buttons img{
+ width: 22px;
+}
+
+.note-box .title{
+     font-size: 25px;
+     
+
+}
+
+.date{
+     font-size: 12px;
+     margin-top: 10px;
+     color: gray;
+}
+
+.desc{
+    font-size: 15px;
+
+  max-width: 200px;
+  max-height: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden; /* Hide remaining content */
+}
+.desc>p{
+  
+color: blueviolet;
+}
+
+
+.view img{
+     width: 20px;
+}
+.view{
+     margin-left: 200px;
+}

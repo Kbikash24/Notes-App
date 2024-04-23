@@ -1,0 +1,18 @@
+.input{
+    padding: 5px;
+    width: 471px;
+    outline: none;
+
+}
+
+.save button{
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.view-image{
+    max-width: 200px;
+    margin: 10px;
+    max-height: 200px;
+
+}

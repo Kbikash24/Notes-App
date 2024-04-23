@@ -1,0 +1,64 @@
+.top-buttons {
+  display: flex;
+  gap: 2px;
+  position: relative;
+  left: 50%;
+  margin: 20px;
+}
+
+.top-buttons button {
+  padding: 4px;
+}
+
+.top-buttons input {
+  padding-left: 10px;
+  outline: none;
+  padding: 5px;
+  border: none;
+  background: rgb(230, 223, 243);
+}
+
+.top-buttons select {
+  border: none;
+}
+.top {
+  display: flex;
+  margin-left: 52px;
+  align-items: center;
+}
+.top p {
+  font-size: 25px;
+  font-weight: 500;
+}
+.notes-container {
+  border-top: 1px solid rgb(248, 248, 248);
+  width: full;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  background: rgb(242, 235, 250);
+  margin: 10px 50px;
+  margin-bottom: 30px;
+  
+
+  overflow-y: scroll;
+}
+.add {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  right: 10px;
+  margin: 10px;
+  bottom: 50px;
+}
+
+.add img {
+  width: 85px;
+  cursor: pointer;
+}
+
+.sort-btn {
+  padding: 20px;
+  background: burlywood;
+}
